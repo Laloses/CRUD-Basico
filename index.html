@@ -1,0 +1,29 @@
+<!-- Martell Hernandez Hernandez-->
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf-8" lang="es">
+        </head>
+        <body>        
+            <form action="menuP.php" method="POST">
+                <input id="db" type="text" name="db" hidden>
+                <input id="btnDB" type="submit" value="Enviar" hidden>
+            </form>
+            <script type="text/javascript">
+                var db=""
+                var flag=0;
+                db= prompt("Ingresa el nombre de la base de datos: ","");
+                document.getElementById("db").value=db;
+                while(flag==0){
+                    if( !confirm("Se ingresó '"+db+"'. \n¿Está de acuerdo? ") ){
+                        db= prompt("Ingresa el nombre de la base de datos: ","");
+                    }
+                    else{
+                        flag=1;
+                        document.getElementById("btnDB").click();
+                    }
+                }
+            </script>
+        </body>
+
+</html>

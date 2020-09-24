@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+body{
+    height: 80%;
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color:  red;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+h1{
+    text-align: center;
+}   
+sub{
+    color: white;
+}
+button, input[type="submit"]{
+    color: white;
+    text-decoration-color: white;
+    background-color: red;
+}
+button:hover, input[type="submit"]:hover{
+    border: grey 2px outset;
+    background-color: white;
+    color: black;
+}
+#res{
+    vertical-align:middle;
+    text-align: center;
+}
+footer, #footer{
+    position: fixed;
+    left: 0;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+span{
+    vertical-align: middle;
+}
+ul{
+    list-style-type: none;
+}
+#centro{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+}
+p{
+    vertical-align: middle;
+    align-content: center;
+}
